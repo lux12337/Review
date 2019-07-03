@@ -25,6 +25,5 @@ bst.insert(70)
 bst.insert(66)
 bst.insert(90)
 
-bst.inorder()
 bst.preorder()
-bst.postorder()
+bst.preorderIter()
