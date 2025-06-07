@@ -90,7 +90,13 @@ class BST(object):
         else:
             self.root = TreeNode(data)
 
-# Delete node in BST tree
+# Delete node in BST tree # NOT DONE
+    def delete(self, data):
+        if self.root == None: return
+        current = self.root
+        parent = None
+        pass
+
 
 # Calls preorder function on root of BST
     def preorder(self):
